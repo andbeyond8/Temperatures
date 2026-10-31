@@ -2,17 +2,17 @@ public class temperatureconverter
 {
     public double celsiustofahrenheit (double celsius)
     {
-        double fern = (celsius* (9.0/5.0));
-        return 0.00;
+        double fah = (celsius* (9.0/5.0) + 32);
+        return fah;
     }
     public double fahrenheitTocelsius (double fah)
     {
         double cel = ((fah - 32)* (5.0/9.0) );
-        return 0.00;
+        return cel;
     }
     public double celsiusToKelvin (double cel)
     {
         double kel = (cel+ 273.15 );
-        return 0.00;
+        return kel;
     }
 }
