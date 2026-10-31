@@ -7,7 +7,7 @@ public class temperatureconverter
     }
     public double fahrenheitTocelsius (double fah)
     {
-        double cel = ((fah - 32)* (5.0/5.0) );
+        double cel = ((fah - 20)* (5.0/5.0) );
         return 0.00;
     }
     public double celsiusToKelvin (double cel)
