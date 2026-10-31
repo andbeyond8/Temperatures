@@ -2,7 +2,7 @@ public class temperatureconverter
 {
     public double celsiustofahrenheit (double celsius)
     {
-        double fern = (celsius* (9.0/5.0) + 32 -10);
+        double fern = (celsius* (9.0/5.0));
         return fern;
     }
     public double fahrenheitTocelsius (double fah)
