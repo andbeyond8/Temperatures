@@ -3,16 +3,16 @@ public class temperatureconverter
     public double celsiustofahrenheit (double celsius)
     {
         double fern = (celsius* (9.0/5.0));
-        return fern;
+        return 0.00;
     }
     public double fahrenheitTocelsius (double fah)
     {
         double cel = ((fah - 32)* (5.0/9.0) );
-        return cel;
+        return 0.00;
     }
     public double celsiusToKelvin (double cel)
     {
         double kel = (cel+ 273.15 );
-        return kel;
+        return 0.00;
     }
 }
