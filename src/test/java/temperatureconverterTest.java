@@ -23,5 +23,10 @@ class temperatureconverterTest
     {
         assertEquals(0.00,temp.celsiusToKelvin(1));
     }
+    @Test
+    void zerostar()
+    {
+        assertEquals(0.00, temp.zerostar());
+    }
 
 }

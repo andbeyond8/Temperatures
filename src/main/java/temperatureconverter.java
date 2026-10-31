@@ -15,6 +15,11 @@ public class temperatureconverter
         double kel = (cel+ 273.15 );
         return 0.00;
     }
+    public double zerostar()
+    {
+        double x = 0.00;
+        return x;
+    }
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
